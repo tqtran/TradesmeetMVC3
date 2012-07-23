@@ -10,8 +10,8 @@ namespace TradesmeetMVC3.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
-
+            ViewBag.Message = "Welcome to Tradesmeet";
+            //Home Page Content logic goes here.  Most likely from DB
             return View();
         }
 
